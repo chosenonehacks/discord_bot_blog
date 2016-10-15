@@ -34,7 +34,7 @@ namespace TestBot3
 
                 discord.ExecuteAndWait(async () =>
                 {
-                    await discord.Connect("MjM2ODA0ODAxMjA2MTU3MzEy.CuPldA.A3Z54yeaCzAf2KbRayM1mp63IUE", TokenType.Bot);
+                    await discord.Connect("your_token_here", TokenType.Bot);
                 });
             }
 
